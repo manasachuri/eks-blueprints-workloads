@@ -67,6 +67,7 @@ spec:
     billing-team: default
     team: default
     type: karpenter
+    app: prometheus
     
   # Do we want to apply some taints on the nodes ?  
   # taints:
