@@ -35,6 +35,7 @@ spec:
       nodeSelector: # <- add nodeselector, toleration and spread constraitns
         team: default
         type: karpenter
+        app: prometheus
       tolerations:
         - key: 'karpenter'
           operator: 'Exists'
